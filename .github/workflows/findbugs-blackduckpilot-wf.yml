@@ -10,7 +10,8 @@ on:
 
 jobs:
 
-  gradle-make-findbugs-blackduckcopilot:
+  make-gradle-findbugs-blackduckcopilot:
+    name: "make build gradle w findbugs junit blackduckcopilot"
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
